@@ -1,0 +1,362 @@
+# ==========================================
+
+# Node.js
+
+# ==========================================
+
+node_modules/
+**/node_modules/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+.npm/
+.yarn/
+.pnpm-store/
+
+# ==========================================
+
+# Build / Compilación
+
+# ==========================================
+
+dist/
+**/dist/
+
+build/
+**/build/
+
+out/
+**/out/
+
+.tmp/
+**/.tmp/
+
+temp/
+**/temp/
+
+.cache/
+**/.cache/
+
+# ==========================================
+
+# Next.js / React
+
+# ==========================================
+
+.next/
+**/.next/
+
+.vercel/
+**/.vercel/
+
+.vite/
+**/.vite/
+
+.expo/
+**/.expo/
+
+.expo-shared/
+**/.expo-shared/
+
+# ==========================================
+
+# TypeScript
+
+# ==========================================
+
+*.tsbuildinfo
+**/*.tsbuildinfo
+
+tsconfig.tsbuildinfo
+**/tsconfig.tsbuildinfo
+
+# ==========================================
+
+# Jest - Pruebas unitarias
+
+# ==========================================
+
+# Reportes de cobertura
+
+coverage/
+**/coverage/
+
+.nyc_output/
+**/.nyc_output/
+
+# Cache de Jest
+
+.jest/
+**/.jest/
+
+jest-cache/
+**/jest-cache/
+
+# Resultados y reportes
+
+jest-results/
+**/jest-results/
+
+test-results/
+**/test-results/
+
+# Archivos temporales de Jest
+
+*.snap.tmp
+**/*.snap.tmp
+
+# ==========================================
+
+# Pruebas E2E
+
+# ==========================================
+
+# Directorios comunes de pruebas E2E
+
+e2e-results/
+**/e2e-results/
+
+e2e-report/
+**/e2e-report/
+
+e2e-reports/
+**/e2e-reports/
+
+test-results/
+**/test-results/
+
+# Playwright
+
+playwright-report/
+**/playwright-report/
+
+playwright/.cache/
+**/playwright/.cache/
+
+# Cypress
+
+cypress/videos/
+**/cypress/videos/
+
+cypress/screenshots/
+**/cypress/screenshots/
+
+cypress/downloads/
+**/cypress/downloads/
+
+# Puppeteer
+
+puppeteer-screenshots/
+**/puppeteer-screenshots/
+
+# ==========================================
+
+# Tests temporales
+
+# ==========================================
+
+*.test.log
+**/*.test.log
+
+*.spec.log
+**/*.spec.log
+
+*.test.tmp
+**/*.test.tmp
+
+*.spec.tmp
+**/*.spec.tmp
+
+# ==========================================
+
+# Variables de entorno
+
+# ==========================================
+
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Se permiten archivos de ejemplo
+
+!.env.example
+!**/.env.example
+
+!.env.template
+!**/.env.template
+
+# ==========================================
+
+# Logs
+
+# ==========================================
+
+logs/
+**/logs/
+
+*.log
+*.log.*
+
+# ==========================================
+
+# VS Code
+
+# ==========================================
+
+.vscode/*
+**/.vscode/*
+
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# ==========================================
+
+# JetBrains / IntelliJ
+
+# ==========================================
+
+.idea/
+**/.idea/
+
+*.iml
+
+# ==========================================
+
+# Sistema operativo
+
+# ==========================================
+
+.DS_Store
+**/.DS_Store
+
+Thumbs.db
+**/Thumbs.db
+
+Desktop.ini
+**/Desktop.ini
+
+# ==========================================
+
+# ESLint / Prettier
+
+# ==========================================
+
+.eslintcache
+**/.eslintcache
+
+.prettier-cache
+**/.prettier-cache
+
+# ==========================================
+
+# SWC / Babel
+
+# ==========================================
+
+.swc/
+**/.swc/
+
+.babel-cache/
+**/.babel-cache/
+
+# ==========================================
+
+# Turborepo / Nx
+
+# ==========================================
+
+.turbo/
+**/.turbo/
+
+.nx/
+**/.nx/
+
+.nx-cache/
+**/.nx-cache/
+
+# ==========================================
+
+# Storybook
+
+# ==========================================
+
+storybook-static/
+**/storybook-static/
+
+# ==========================================
+
+# Serverless
+
+# ==========================================
+
+.serverless/
+**/.serverless/
+
+.serverless_plugins/
+**/.serverless_plugins/
+
+# ==========================================
+
+# AWS
+
+# ==========================================
+
+.aws/
+**/.aws/
+
+# ==========================================
+
+# Prisma
+
+# ==========================================
+
+.prisma/
+**/.prisma/
+
+# ==========================================
+
+# Certificados y claves privadas
+
+# ==========================================
+
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Claves públicas permitidas
+
+!*.pub
+
+# ==========================================
+
+# Archivos temporales
+
+# ==========================================
+
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+*.swp
+*.swo
+
+*.pid
+*.seed
+
+# ==========================================
+
+# Husky
+
+# ==========================================
+
+.husky/_/
